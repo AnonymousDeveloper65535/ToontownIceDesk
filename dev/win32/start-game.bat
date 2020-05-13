@@ -1,6 +1,6 @@
 @echo off
 
-title Toontown Stride Game Launcher
+title Ice Desk Game Launcher
 
 echo Choose your connection method!
 echo.
@@ -46,7 +46,7 @@ if %INPUT%==2 (
 echo.
 
 echo ===============================
-echo Starting Toontown Stride...
+echo Starting Ice Desk...
 echo ppython: "C:\Panda3D-1.10.0\python\ppython.exe"
 
 if %INPUT%==2 (

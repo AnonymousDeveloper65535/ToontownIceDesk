@@ -1,37 +1,37 @@
 import string
 from otp.otpbase.OTPLocalizerEnglishProperty import *
-lTheBrrrgh = 'The Brrrgh'
-lDaisyGardens = 'Daisy Gardens'
-lDonaldsDock = "Donald's Dock"
-lDonaldsDreamland = "Donald's Dreamland"
-lMinniesMelodyland = "Minnie's Melodyland"
-lToontownCentral = 'Toontown Central'
-lGoofySpeedway = 'Goofy Speedway'
-lOutdoorZone = "Chip 'n Dale's Acorn Acres"
-lGolfZone = "Chip 'n Dale's MiniGolf"
-lCancel = 'Cancel'
-lClose = 'Close'
-lOK = 'OK'
-lNext = 'Next'
-lNo = 'No'
-lQuit = 'Quit'
-lYes = 'Yes'
-Cog = 'Cog'
-Cogs = 'Cogs'
+lTheBrrrgh = 'Ice Desk'
+lDaisyGardens = 'Ice Desk'
+lDonaldsDock = "Ice Desk"
+lDonaldsDreamland = "Ice Desk"
+lMinniesMelodyland = "Ice Desk"
+lToontownCentral = 'Ice Desk'
+lGoofySpeedway = 'Ice Desk'
+lOutdoorZone = "Ice Desk"
+lGolfZone = "Ice Desk"
+lCancel = 'Ice Desk'
+lClose = 'Ice Desk'
+lOK = 'Ice Desk'
+lNext = 'Ice Desk'
+lNo = 'Ice Desk'
+lQuit = 'Ice Desk'
+lYes = 'Ice Desk'
+Cog = 'Ice Desk'
+Cogs = 'Ice Desks'
 DialogOK = lOK
 DialogCancel = lCancel
 DialogYes = lYes
 DialogNo = lNo
-DialogDoNotShowAgain = 'Do Not\nShow Again'
-WhisperNoLongerFriend = '%s left your friends list.'
-WhisperNowSpecialFriend = '%s is now your True Friend!'
-WhisperComingToVisit = '%s is coming to visit you.'
-WhisperFailedVisit = '%s tried to visit you.'
-WhisperTargetLeftVisit = '%s has gone somewhere else. Try again!'
-WhisperGiveupVisit = "%s couldn't find you because you're moving around!"
-TeleportGreeting = 'Hi, %s.'
-WhisperFriendComingOnline = '%s is coming online!'
-WhisperFriendLoggedOut = '%s has logged out.'
+DialogDoNotShowAgain = 'Ice Desk'
+WhisperNoLongerFriend = 'Ice Desk left your friends list.'
+WhisperNowSpecialFriend = 'Ice Desk is now your True Friend!'
+WhisperComingToVisit = 'Ice Desk is coming to visit you.'
+WhisperFailedVisit = 'Ice Desk tried to visit you.'
+WhisperTargetLeftVisit = 'Ice Desk has gone somewhere else. Try again!'
+WhisperGiveupVisit = "Ice Desk couldn't find you because you're moving around!"
+TeleportGreeting = 'Hi, ice desk.'
+WhisperFriendComingOnline = 'ice desk is coming online!'
+WhisperFriendLoggedOut = 'ice desk has logged out.'
 DialogSpecial = 'ooo'
 DialogExclamation = '!'
 DialogQuestion = '?'
@@ -39,26 +39,26 @@ ChatInputNormalSayIt = 'Say It'
 ChatInputNormalCancel = lCancel
 ChatInputNormalWhisper = 'Whisper'
 ChatInputWhisperLabel = 'To %s'
-SCEmoteNoAccessMsg = 'You do not have access\nto this emotion yet.'
+SCEmoteNoAccessMsg = 'You do not have access\nto this ice desk yet.'
 SCEmoteNoAccessOK = lOK
 ChatGarblerDefault = ['blah']
 ChatManagerChat = 'Chat'
 ChatManagerWhisperTo = 'Whisper to:'
-ChatManagerWhisperToName = 'Whisper To:\n%s'
+ChatManagerWhisperToName = 'Whisper To: Ice Desk'
 ChatManagerCancel = lCancel
-ChatManagerWhisperOffline = '%s is offline.'
+ChatManagerWhisperOffline = 'Ice Desk is offline.'
 # True Friends
-NoTrueFriendsTitle = 'Open Chat With True Friends'
-NoTrueFriends = 'Open Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account. Log in to edit your "Community Settings."'
+NoTrueFriendsTitle = 'Open Ice Desk With Ice Desk'
+NoTrueFriends = 'Open Ice Desk with Ice Desks allows real-life friends to ice openly with each other by means of a Ice Desk Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account. Log in to edit your "Community Settings."'
 # Speedchat Plus
 NoSpeedchatPlusTitle = 'Chat Button'
 NoSpeedchatPlus = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with True Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the SpeedChat Plus dictionary.\n\nOpen Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."'
 NoTrueFriendsOK = lOK
-WhisperToFormat = 'To %s %s'
-WhisperToFormatName = 'To %s'
-WhisperFromFormatName = '%s whispers'
-ThoughtOtherFormatName = '%s thinks'
-ThoughtSelfFormatName = 'You think'
+WhisperToFormat = 'To Ice Desk'
+WhisperToFormatName = 'To Ice Desk'
+WhisperFromFormatName = 'Ice Desk whispers'
+ThoughtOtherFormatName = 'Ice Desk thinks'
+ThoughtSelfFormatName = 'Ice Desk think'
 from pandac.PandaModules import TextProperties
 from pandac.PandaModules import TextPropertiesManager
 shadow = TextProperties()
@@ -121,178 +121,178 @@ cobalt = TextProperties()
 cobalt.setTextColor(0, 0.28, 0.67, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cobalt', cobalt)
 
-CRConnecting = 'Connecting...'
-CRNoConnectTryAgain = 'Could not connect to %s:%s. Try again?'
-CRNoConnectProxyNoPort = 'Could not connect to %s:%s.\n\nYou are communicating to the internet via a proxy, but your proxy does not permit connections on port %s.\n\nYou must open up this port, or disable your proxy, in order to play.  If your proxy has been provided by your ISP, you must contact your ISP to request them to open up this port.'
-CRNoDistrictsTryAgain = 'No Districts are available. Try again?'
-CRRejectRemoveAvatar = 'The avatar was not able to be deleted, try again another time.'
-CRLostConnection = 'Your internet connection to the servers has been unexpectedly broken.'
-CRBootedReasons = {100: 'You have been disconnected because someone else just logged in using your account on another computer.',
- 101: 'Please relaunch the game from the official launcher.',
+CRConnecting = 'Connecting to Ice Desk'
+CRNoConnectTryAgain = 'Could not connect to Ice Desk. Try again?'
+CRNoConnectProxyNoPort = 'Could not connect to Ice Desk.\nYou are communicating to the internet via a proxy, but your proxy does not permit connections on port %s.\n\nYou must open up this port, or disable your proxy, in order to play.  If your proxy has been provided by your ISP, you must contact your ISP to request them to open up this port.'
+CRNoDistrictsTryAgain = 'No Ice Desks are available. Try again?'
+CRRejectRemoveAvatar = 'The avatar was not able to be ice desked, try again another time.'
+CRLostConnection = 'Your ice desk to the servers has been unexpectedly broken.'
+CRBootedReasons = {100: 'You have been disconnected because someone other ice desk just logged in using your account on another computer.',
+ 101: 'Please relaunch the game from the official ice desk.',
  102: 'You are not authorized to use administrator privileges.',
  103: 'You were banned by a moderator.\n\nBehave next time!',
- 105: 'Toontown Stride is now temporarily closed for maintenance. Everyone who was playing has been disconnected from the game.\n\nFor more information, please visit the Toontown Stride website.',
- 124: 'Your installed files are out of date!  Use the official launcher to download the newest version, or contact Toontown Stride Support if the problem persists.',
+ 105: 'Ice Desk is now temporarily closed for maintenance. Everyone who was playing has been disconnected from the game.\n\nFor more information, please visit the Ice Desk website.',
+ 124: 'Your installed files are out of date!  Use the official launcher to download the newest version, or contact Ice Desk Support if the problem persists.',
  153: 'The district you were playing on has been reset.  Everyone who was playing on that district has been disconnected.  However, you should be able to connect again and go right back into the game.',
  166: 'You were disconnected to prevent a district reset.'}
-CRBootedReasonUnknownCode = 'An unexpected problem has occurred (error code %s).  Your connection has been lost, but you should be able to connect again and go right back into the game.'
+CRBootedReasonUnknownCode = 'An unexpected Ice Desk problem has occurred (error code %s).  Your connection has been lost, but you should be able to connect again and go right back into the game.'
 CRTryConnectAgain = '\n\nTry to connect again?'
-CRToontownUnavailable = 'The server appears to be temporarily unavailable, still trying...'
+CRToontownUnavailable = 'The Ice Desk appears to be temporarily unavailable, still trying...'
 CRToontownUnavailableCancel = lCancel
-CRNameCongratulations = 'CONGRATULATIONS!!'
-CRNameAccepted = 'Your name has been\napproved by the Toon Council.\n\nFrom this day forth\nyou will be named\n"%s"'
-CRMaintenanceCountdownMessage = 'Attention Toons! Toontown Stride will be going down for maintenance in %d minutes.'
-CRMaintenanceMessage = 'Attention Toons! Toontown Stride is now going down for maintenance.'
-AfkForceAcknowledgeMessage = 'Your toon got sleepy and went to bed.'
-CREnteringToontown = 'Entering...'
+CRNameCongratulations = 'ICE DESKS!!'
+CRNameAccepted = 'Your ice desk has been\napproved by the Toon Council.\n\nFrom this day forth\nyou will be named\n Ice'
+CRMaintenanceCountdownMessage = 'Attention Toons! Ice Desk will be going down for maintenance in %d ice desk minutes.'
+CRMaintenanceMessage = 'Attention Toons! Ice Desk is now going down for maintenance.'
+AfkForceAcknowledgeMessage = 'Your toon got sleepy and went toice desk.'
+CREnteringToontown = 'Entering ice desk...'
 DialogSpecial = 'ooo'
 DialogExclamation = '!'
 DialogQuestion = '?'
 DialogLength1 = 6
 DialogLength2 = 12
 DialogLength3 = 20
-GlobalSpeedChatName = 'SpeedChat'
-SCMenuPromotion = 'PROMOTIONAL'
-SCMenuEmotions = 'EMOTIONS'
-SCMenuCustom = 'MY PHRASES'
-SCMenuResistance = 'UNITE!'
-SCMenuPets = 'PETS'
-SCMenuPetTricks = 'TRICKS'
-SCMenuCog = 'COG SPEAK'
-SCMenuHello = 'HELLO'
-SCMenuBye = 'GOODBYE'
-SCMenuConvo = 'CHIT CHAT'
-SCMenuEmoticons = 'EMOTICONS'
-SCMenuResponse="REPLIES"
-SCMenuGood = 'GOOD'
-SCMenuBad = 'BAD'
-SCMenuHappy = 'HAPPY'
-SCMenuSad = 'SAD'
-SCMenuFriendly = 'FRIENDLY'
-SCMenuSorry = 'SORRY'
-SCMenuBusy = "I'M BUSY..."
-SCMenuStinky = 'STINKY'
-SCMenuPlaces = 'PLACES'
-SCMenuToontasks = 'TOONTASKS'
-SCMenuBattle = 'BATTLE'
-SCMenuBattleUse = 'YOU SHOULD USE...'
-SCMenuBattleToonUp = 'TOON-UP'
-SCMenuBattleTrap = 'TRAP'
-SCMenuBattleLure = 'LURE'
-SCMenuBattleSound = 'SOUND'
-SCMenuBattleThrow = 'THROW'
-SCMenuBattleSquirt = 'SQUIRT'
-SCMenuBattleDrop = 'DROP'
-SCMenuGagShop = 'TROLLEY'
-SCMenuFactory = 'FACTORY'
-SCMenuKartRacing = 'RACING'
-SCMenuFactoryMeet = 'MEET'
-SCMenuCFOBattle = 'C.F.O.'
-SCMenuCFOBattleCranes = 'CRANES'
-SCMenuCFOBattleGoons = 'GOONS'
-SCMenuCJBattle = 'CHIEF JUSTICE'
-SCMenuCEOBattle = 'C.E.O.'
-SCMenuGolf = 'GOLF'
-SCMenuWhiteList = 'WHITELIST'
-SCMenuPlacesPlayground = 'PLAYGROUND'
-SCMenuPlacesEstate = 'ESTATE'
-SCMenuPlacesCogs = 'COGS'
-SCMenuPlacesWait = 'WAIT'
-SCMenuFriendlyYou = 'YOU...'
-SCMenuFriendlyILike = 'I LIKE YOUR...'
-SCMenuPlacesLetsGo = "LET'S GO..."
-SCMenuToontasksMyTasks = 'MY TASKS'
-SCMenuToontasksYouShouldChoose = 'I THINK YOU SHOULD...'
-SCMenuToontasksINeedMore = 'I NEED MORE...'
-SCMenuBattleGags = 'GAGS'
-SCMenuBattleTaunts = 'TAUNTS'
-SCMenuBattleStrategy = 'STRATEGY'
-SCMenuBoardingGroup = 'BOARDING'
-SCMenuParties = 'PARTIES'
-SCMenuAprilToons = "APRIL TOONS'"
-SCMenuCarol = 'CAROLING'
-SCMenuSillyHoliday = 'SILLY METER'
-SCMenuVictoryParties = 'VICTORY PARTIES'
-SCMenuSellbotNerf = 'STORM SELLBOT'
-SCMenuJellybeanJam = 'JELLYBEAN WEEK'
-SCMenuHalloween = 'HALLOWEEN'
-SCMenuWinter = 'WINTER'
-SCMenuSellbotInvasion = 'SELLBOT INVASION'
-SCMenuFieldOffice = 'FIELD OFFICES'
-SCMenuIdesOfMarch = 'GREEN'
-ScMenuBugs = 'Bugs'
-FriendInviteeTooManyFriends = '%s would like to be your friend, but you already have too many friends on your list!'
-FriendInviteeInvitation = '%s would like to be your friend.'
+GlobalSpeedChatName = 'Ice Desk'
+SCMenuPromotion = 'Ice Desk'
+SCMenuEmotions = 'Ice Desk'
+SCMenuCustom = 'Ice Desk'
+SCMenuResistance = 'ICE DESK!'
+SCMenuPets = 'ICE DESK'
+SCMenuPetTricks = 'ICE DESKS'
+SCMenuCog = 'ICE DESK'
+SCMenuHello = 'ICE DESK'
+SCMenuBye = 'ICE DESK'
+SCMenuConvo = 'ICE DESK'
+SCMenuEmoticons = 'ICE DESKS'
+SCMenuResponse="ICE DESKS"
+SCMenuGood = 'ICE'
+SCMenuBad = 'DESK'
+SCMenuHappy = 'ICE DESK'
+SCMenuSad = 'ICE DESK'
+SCMenuFriendly = 'ICE DESK'
+SCMenuSorry = 'ICE DESK'
+SCMenuBusy = "I'M ICE DESK..."
+SCMenuStinky = 'ICE DESK STINK'
+SCMenuPlaces = 'ICE DESKS'
+SCMenuToontasks = 'ICE DESKS'
+SCMenuBattle = 'ICE DSK'
+SCMenuBattleUse = 'YOU SHOULD USE ICE DESK...'
+SCMenuBattleToonUp = 'ICE-DESK'
+SCMenuBattleTrap = 'ICE'
+SCMenuBattleLure = 'ICE'
+SCMenuBattleSound = 'ICE'
+SCMenuBattleThrow = 'ICE'
+SCMenuBattleSquirt = 'ICE'
+SCMenuBattleDrop = 'ICE'
+SCMenuGagShop = 'ICE DESK'
+SCMenuFactory = 'ICE DESK'
+SCMenuKartRacing = 'ICE DESK'
+SCMenuFactoryMeet = 'ICE DESK'
+SCMenuCFOBattle = 'ICE DESK'
+SCMenuCFOBattleCranes = 'ICE DESK'
+SCMenuCFOBattleGoons = 'ICE DESK'
+SCMenuCJBattle = 'ICE DESK'
+SCMenuCEOBattle = 'ICE DESK'
+SCMenuGolf = 'ICE DESK'
+SCMenuWhiteList = 'ice desk'
+SCMenuPlacesPlayground = 'ice desk'
+SCMenuPlacesEstate = 'ice desk'
+SCMenuPlacesCogs = 'ice desk'
+SCMenuPlacesWait = 'ice desk'
+SCMenuFriendlyYou = 'ice desk...'
+SCMenuFriendlyILike = 'ice desk...'
+SCMenuPlacesLetsGo = "ice desk.."
+SCMenuToontasksMyTasks = 'ice desk'
+SCMenuToontasksYouShouldChoose = 'ice desk...'
+SCMenuToontasksINeedMore = 'ice desk...'
+SCMenuBattleGags = 'ice desk'
+SCMenuBattleTaunts = 'ice desk'
+SCMenuBattleStrategy = 'ice desk'
+SCMenuBoardingGroup = 'ice desk'
+SCMenuParties = 'ice desk'
+SCMenuAprilToons = "ice desk TOONS'"
+SCMenuCarol = 'ice desk'
+SCMenuSillyHoliday = 'ice desk METER'
+SCMenuVictoryParties = 'ice desk PARTIES'
+SCMenuSellbotNerf = 'ice desk SELLBOT'
+SCMenuJellybeanJam = 'ice desk WEEK'
+SCMenuHalloween = 'ice desk'
+SCMenuWinter = 'ice desk'
+SCMenuSellbotInvasion = 'ice desk INVASION'
+SCMenuFieldOffice = 'FIELD ice desk'
+SCMenuIdesOfMarch = 'ice desk'
+ScMenuBugs = 'ice desk'
+FriendInviteeTooManyFriends = 'ice desk would like to be your friend, but you already have too many friends on your list!'
+FriendInviteeInvitation = 'ice desk would like to be your friend.'
 FriendInviteeOK = lOK
 FriendInviteeNo = lNo
-FriendOnline = 'has come online.'
-FriendOffline = 'has gone offline.'
+FriendOnline = 'ice desk has come online.'
+FriendOffline = 'ice desk has gone offline.'
 FriendInviterOK = lOK
 FriendInviterCancel = lCancel
-FriendInviterStopBeingFriends = 'Stop being friends'
-FriendInviterConfirmRemove = 'Remove'
+FriendInviterStopBeingFriends = 'Stop being ice desk'
+FriendInviterConfirmRemove = 'Remove ice desk'
 FriendInviterYes = lYes
 FriendInviterNo = lNo
-FriendInviterClickToon = 'Click on the toon you would like to make friends with.'
-FriendInviterTooMany = 'You have too many friends on your list to add another one now. You will have to remove some friends if you want to make friends with %s.'
-FriendInviterToonTooMany = 'You have too many toon friends on your list to add another one now. You will have to remove some toon friends if you want to make friends with %s.'
-FriendInviterNotYet = 'Would you like to make friends with %s?'
+FriendInviterClickToon = 'Click on the ice desk you would like to make friends with.'
+FriendInviterTooMany = 'You have too many ice desks on your list to add another one now. You will have to remove some ice desks if you want to make ice desks with ice desk'
+FriendInviterToonTooMany = 'You have too many toon ice desks on your list to add another one now. You will have to remove some ice desks if you want to make ice desks with ice desk.'
+FriendInviterNotYet = 'Would you like to make ice desks with ice desk?'
 FriendInviterCheckAvailability = 'Seeing if %s is available.'
-FriendInviterNotAvailable = '%s is busy right now; try again later.'
-FriendInviterWentAway = '%s went away.'
-FriendInviterAlready = '%s is already your friend.'
-FriendInviterAlreadyInvited = '%s has already been invited.'
-FriendInviterAskingCog = 'Asking %s to be your friend.'
-FriendInviterAskingPet = '%s jumps around, runs in circles and licks your face.'
-FriendInviterAskingMyPet = '%s is already your BEST friend.'
-FriendInviterEndFriendship = 'Are you sure you want to stop being friends with %s?'
-FriendInviterFriendsNoMore = '%s is no longer your friend.'
-FriendInviterSelf = "You are already 'friends' with yourself!"
-FriendInviterIgnored = '%s is ignoring you.'
-FriendInviterAsking = 'Asking %s to be your friend.'
-FriendInviterFriendSaidYes = 'You are now friends with %s!'
-FriendInviterFriendSaidNo = '%s said no, thank you.'
-FriendInviterFriendSaidNoNewFriends = "%s isn't looking for new friends right now."
-FriendInviterOtherTooMany = '%s has too many friends already!'
-FriendInviterMaybe = '%s was unable to answer.'
-FriendInviterDown = 'Cannot make friends now.'
+FriendInviterNotAvailable = 'ice desk is busy right now; try again later.'
+FriendInviterWentAway = 'ice desk went away.'
+FriendInviterAlready = 'ice desk is already your friend.'
+FriendInviterAlreadyInvited = 'ice desk has already been invited.'
+FriendInviterAskingCog = 'Asking ice desk to be your friend.'
+FriendInviterAskingPet = 'ice desk jumps around, runs in circles and licks your face.'
+FriendInviterAskingMyPet = 'ice desk is already your BEST friend.'
+FriendInviterEndFriendship = 'Are you sure you want to stop being friends with ice desk?'
+FriendInviterFriendsNoMore = 'ice desk is no longer your friend.'
+FriendInviterSelf = "You are already 'friends' with ice desk self!"
+FriendInviterIgnored = 'ice desk is ignoring you.'
+FriendInviterAsking = 'Asking ice desk to be your friend.'
+FriendInviterFriendSaidYes = 'You are now friends with ice desk!'
+FriendInviterFriendSaidNo = 'ice desk said no, thank you.'
+FriendInviterFriendSaidNoNewFriends = "ice desk isn't looking for new friends right now."
+FriendInviterOtherTooMany = 'ice desk has too many friends already!'
+FriendInviterMaybe = 'ice desk was unable to answer.'
+FriendInviterDown = 'Cannot make ice desk now.'
 AntiSpamInChat = '***Spamming***'
 IgnoreConfirmOK = lOK
 IgnoreConfirmCancel = lCancel
 IgnoreConfirmYes = lYes
 IgnoreConfirmNo = lNo
-IgnoreConfirmNotYet = 'Would you like to Ignore %s?'
-IgnoreConfirmAlready = 'You are already ignoring %s.'
+IgnoreConfirmNotYet = 'Would you like to Ignore ice desk?'
+IgnoreConfirmAlready = 'You are already ignoring ice desk.'
 IgnoreConfirmSelf = 'You cannot ignore yourself!'
-IgnoreConfirmNewIgnore = 'You are ignoring %s.'
-IgnoreConfirmEndIgnore = 'You are no longer ignoring %s.'
-IgnoreConfirmRemoveIgnore = 'Stop ignoring %s?'
-EmoteList = ['Wave',
- 'Happy',
- 'Sad',
- 'Angry',
- 'Sleepy',
- 'Shrug',
- 'Dance',
- 'Think',
- 'Bored',
- 'Applause',
- 'Cringe',
- 'Confused',
- 'Belly Flop',
- 'Bow',
- 'Banana Peel',
- 'Resistance Salute',
- 'Laugh',
+IgnoreConfirmNewIgnore = 'You are ignoring ice desk.'
+IgnoreConfirmEndIgnore = 'You are no longer ignoring ice desk.'
+IgnoreConfirmRemoveIgnore = 'Stop ignoring v?'
+EmoteList = ['ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'Belly ice desk',
+ 'ice desk',
+ 'ice desk Peel',
+ 'Resistance ice desk',
+ 'ice desk',
  lYes,
  lNo,
  lOK,
- 'Surprise',
- 'Cry',
- 'Delighted',
- 'Furious',
- 'Laugh',
- 'Rage']
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk']
 EmoteWhispers = ['%s waves.',
  '%s is happy.',
  '%s is sad.',
@@ -345,49 +345,49 @@ EmoteFuncDict = {'Wave': 0,
  'Furious': 23,
  'Laugh': 24,
  'Rage': 25}
-SuitBrushOffs = {'f': ["I'm late for a meeting."],
- 'p': ['Push off.'],
- 'ym': ['Yes Man says NO.'],
- None: ["It's my day off.",
-        "I believe you're in the wrong office.",
-        'Have your people call my people.',
-        "You're in no position to meet with me.",
-        'Talk to my assistant.',
-        "I'll pretend I don't see you Toon.",
-        "There's a restraining order coming your way."]}
-SuitFaceoffTaunts = {'b': ['Do you have a donation for me?',
-       "I'm going to make you a sore loser.",
-       "I'm going to leave you high and dry.",
-       'I\'m "A Positive" I\'m going to win.',
-       '"O" don\'t be so "Negative".',
-       "I'm surprised you found me, I'm very mobile.",
-       "I'm going to need to do a quick count on you.",
-       "You're soon going to need a cookie and some juice.",
-       "When I'm through you'll need to lie down.",
-       'This will only hurt for a second.',
-       "I'm going to make you dizzy.",
-       "Good timing, I'm a pint low.",
-       "You'll B the opposite of A happy toon when I'm finished with you."],
- 'm': ["You don't know who you're mingling with.",
-       'Ever mingle with the likes of me?',
-       'Good, it takes two to mingle.',
-       "Let's mingle.",
-       'This looks like a good place to mingle.',
-       "Well, isn't this cozy?",
-       "You're mingling with defeat.",
-       "I'm going to mingle in your business.",
-       "Are you sure you're ready to mingle?"],
- 'ms': ['Get ready for a shake down.',
-        'You had better move out of the way.',
-        'Move it or lose it.',
-        "I believe it's my move.",
-        'This should shake you up.',
-        'Prepare to be moved.',
-        "I'm ready to make my move.",
-        "Watch out toon, you're on shaky ground.",
-        'This should be a moving moment.',
-        'I feel moved to defeat you.',
-        'Are you shaking yet?'],
+SuitBrushOffs = {'f': ["ice desk"],
+ 'p': ['ice desk'],
+ 'ym': ['ice desk'],
+ None: ["ice desk",
+        "ice desk",
+        'Have your people call my ice desk.',
+        "You're in no position to meet with ice desk.",
+        'Talk to my ice desk.',
+        "I'll pretend I don't see you ice desk.",
+        "There's an ice desk coming your way."]}
+SuitFaceoffTaunts = {'b': ['Do you have am ice deskfor me?',
+       "I'm going to make you a sore ice desk.",
+       "I'm going to leave you high and ice desk.",
+       'I\'m "A Positive" I\'m going to ice desk.',
+       '"O" don\'t be so "ice desk".',
+       "I'm surprised you found ice desk, I'm very mobile.",
+       "I'm going to need to do a quick ice desk on you.",
+       "You're soon going to need a cookie and some ice desk.",
+       "When I'm through you'll need to lie ice desk.",
+       'This will only ice desk for a second.',
+       "I'm going to make you ice desk.",
+       "Good timing, I'm a ice desk low.",
+       "You'll B the opposite of A happy ice desk when I'm finished with you."],
+ 'm': ["You don't know who you're ice desk with.",
+       'Ever mingle with the likes of ice desk?',
+       'Good, it takes two to ice desk.',
+       "Let's ice desk.",
+       'This looks like a good place to ice desk.',
+       "Well, isn't this ice desk?",
+       "You're mingling with ice desk.",
+       "I'm going to mingle in your ice desk.",
+       "Are you sure you're ready to ice desk?"],
+ 'ms': ['Get ready for a ice desk.',
+        'You had better move out of the way ice desk.',
+        'Move it or lose it ice desk.',
+        "I believe it's my move ice desk.",
+        'This should shake you up ice desk.',
+        'Prepare to be moved ice desk.',
+        "I'm ready to make my move ice desk.",
+        "Watch out ice desk, you're on shaky ground.",
+        'This should be a moving moment ice desk.',
+        'I feel moved to defeat you ice desk.',
+        'Are you shaking yet ice desk?'],
  'hh': ["I'm way ahead of you.",
         "You're headed for big trouble.",
         "You'll wish this was all in your head.",
@@ -712,34 +712,34 @@ SpeedChatStaticTextCommon = {1: lYes,
  2: lNo,
  3: lOK,
  4: 'SPEEDCHAT PLUS'}
-SpeedChatStaticTextToontown = {100: 'Hi!',
- 101: 'Hello!',
- 102: 'Hi there!',
- 103: 'Hey!',
- 104: 'Howdy!',
- 105: 'Hi everybody!',
- 106: 'Welcome to Toontown!',
- 107: "What's up?",
- 108: 'How are you doing?',
- 109: 'Hello?',
- 200: 'Bye!',
- 201: 'Later!',
- 202: 'See ya!',
- 203: 'Have a nice day!',
- 204: 'Have fun!',
- 205: 'Good luck!',
- 206: "I'll be right back.",
- 207: 'I need to go.',
- 208: "I'll be back later!",
- 209: 'I only have a few minutes.',
- 300: ':-)',
- 301: 'Yay!',
- 302: 'Hooray!',
- 303: 'Cool!',
- 304: 'Woo hoo!',
- 305: 'Yeah!',
- 306: 'Ha ha!',
- 307: 'Hee hee!',
+SpeedChatStaticTextToontown = {100: 'ice desk!',
+ 101: 'ice desk!',
+ 102: 'Hi ice desk!',
+ 103: 'ice desk!',
+ 104: 'ice desk!',
+ 105: 'Hi ice desk!',
+ 106: 'Welcome to ice desk!',
+ 107: "What's ice desk?",
+ 108: 'How are you ice desk?',
+ 109: 'ice desk?',
+ 200: 'Bye ice desk!',
+ 201: 'Later ice desk!',
+ 202: 'See ya ice desk!',
+ 203: 'Have a nice day ice desk!',
+ 204: 'Have fun ice desk!',
+ 205: 'Good luck ice desk!',
+ 206: "I'll be right back. ice desk",
+ 207: 'I need to go.ice desk',
+ 208: "I'll be back later ice desk! ",
+ 209: 'I only have a few ice desks.',
+ 300: ':-) ice desk',
+ 301: 'Yay! ice desk',
+ 302: 'Hooray! ice desk',
+ 303: 'Cool! ice desk',
+ 304: 'Woo hoo! ice desk',
+ 305: 'Yeah! ice desk',
+ 306: 'Ha ha! ice desk',
+ 307: 'Hee hee! ice desk',
  308: 'Wow!',
  309: 'Great!',
  310: 'Whee!',
@@ -2225,76 +2225,76 @@ SCMenuCustomCogIndices = {'bf': (20005, 20014),
  'sc': (20330, 20331),
  'sd': (20341, 20350)}
 RandomButton = 'Randomize'
-TypeANameButton = 'Type Name'
-PickANameButton = 'Pick-A-Name'
-NameShopSubmitButton = 'Submit'
-RejectNameText = 'That name is not allowed. Please try again.'
-WaitingForNameSubmission = 'Submitting your name...'
+TypeANameButton = 'Type ice desk'
+PickANameButton = 'Pick-A-ice desk'
+NameShopSubmitButton = 'Submit ice desk'
+RejectNameText = 'That ice desk is not allowed. Please try again.'
+WaitingForNameSubmission = 'Submitting your ice desk...'
 NameShopNameMaster = 'NameMasterEnglish.txt'
-NameShopContinueSubmission = 'Continue Submission'
-NameShopChooseAnother = 'Choose Another Name'
-NameShopToonCouncil = 'The Toon Council\nwill review your\nname.  ' + 'Review may\ntake a few days.\nWhile you wait\nyour name will be\n '
-PleaseTypeName = 'Please type your name:'
-ToonAlreadyExists = '%s already exists'
-AllNewNames = 'All new names\nmust be approved\nby the Name Council.'
-NameShopNameRejected = 'The name you\nsubmitted has\nbeen rejected.'
-NameShopNameAccepted = 'Congratulations!\nThe name you\nsubmitted has\nbeen accepted!'
-NoPunctuation = "You can't use punctuation marks in your name!"
-PeriodOnlyAfterLetter = 'You can use a period in your name, but only after a letter.'
-ApostropheOnlyAfterLetter = 'You can use an apostrophe in your name, but only after a letter.'
+NameShopContinueSubmission = 'Continue ice desk'
+NameShopChooseAnother = 'Choose Another ice desk'
+NameShopToonCouncil = 'The Toon Council\nwill review your\nice desk.  ' + 'Review may\ntake a few days.\nWhile you wait\nyour ice desk will be\n '
+PleaseTypeName = 'Please type your ice desk:'
+ToonAlreadyExists = 'ice desk already exists'
+AllNewNames = 'All new ice desks\nmust be approved\nby the ice desk Council.'
+NameShopNameRejected = 'The ice desk you\nsubmitted has\nbeen rejected.'
+NameShopNameAccepted = 'Congratulations!\nThe ice desk you\nsubmitted has\nbeen accepted!'
+NoPunctuation = "You can't use punctuation marks in your ice desk!"
+PeriodOnlyAfterLetter = 'You can use a period in your ice desk, but only after a letter.'
+ApostropheOnlyAfterLetter = 'You can use an apostrophe in your ice desk, but only after a letter.'
 NoNumbersInTheMiddle = 'Numeric digits may not appear in the middle of a word.'
-ThreeWordsOrLess = 'Your name must be three words or fewer.'
-NCTooShort = 'That name is too short.'
-NCNoDigits = 'Your name cannot contain numbers.'
-NCNeedLetters = 'Each word in your name must contain some letters.'
-NCNeedVowels = 'Each word in your name must contain some vowels.'
-NCAllCaps = 'Your name cannot be all capital letters.'
-NCMixedCase = 'That name has too many capital letters.'
-NCBadCharacter = "Your name cannot contain the character '%s'"
-NCRepeatedChar = "Your name has too many of the character '%s'"
-NCGeneric = 'Sorry, that name will not work.'
-NCTooManyWords = 'Your name cannot be more than four words long.'
+ThreeWordsOrLess = 'Your ice desk must be three words or fewer.'
+NCTooShort = 'That ice desk is too short.'
+NCNoDigits = 'Your ice desk cannot contain numbers.'
+NCNeedLetters = 'Each word in your ice desk must contain some letters.'
+NCNeedVowels = 'Each word in your ice desk must contain some vowels.'
+NCAllCaps = 'Your ice desk cannot be all capital letters.'
+NCMixedCase = 'That ice desk has too many capital letters.'
+NCBadCharacter = "Your ice desk cannot contain the character '%s'"
+NCRepeatedChar = "Your ice desk has too many of the character '%s'"
+NCGeneric = 'Sorry, that ice desk will not work.'
+NCTooManyWords = 'Your ice desk cannot be more than four words long.'
 NCDashUsage = "Dashes may only be used to connect two words together (like in 'Boo-Boo')."
-NCCommaEdge = 'Your name may not begin or end with a comma.'
+NCCommaEdge = 'Your ice desk may not begin or end with a comma.'
 NCCommaAfterWord = 'You may not begin a word with a comma.'
-NCCommaUsage = 'That name does not use commas properly. Commas must join two words together, like in the name "Dr. Quack, MD". Commas must also be followed by a space.'
-NCPeriodUsage = 'That name does not use periods properly. Periods are only allowed in words like "Mr.", "Mrs.", "J.T.", etc.'
-NCApostrophes = 'That name has too many apostrophes.'
+NCCommaUsage = 'That ice desk does not use commas properly. Commas must join two words together, like in the name "Dr. Quack, MD". Commas must also be followed by a space.'
+NCPeriodUsage = 'That ice desk does not use periods properly. Periods are only allowed in words like "Mr.", "Mrs.", "J.T.", etc.'
+NCApostrophes = 'That ice desk has too many apostrophes.'
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
 AvatarDetailPanelClose = lClose
-AvatarDetailPanelLookup = 'Looking up details for %s.'
-AvatarDetailPanelFailedLookup = 'Unable to get details for %s.'
-AvatarDetailPanelOnline = 'District: %(district)s\nLocation: %(location)s'
-AvatarDetailPanelOffline = 'District: offline\nLocation: offline'
-AvatarPanelFriends = 'Friends'
-AvatarPanelWhisper = 'Whisper'
-AvatarPanelTrueFriends = 'True Friends'
-AvatarPanelGoTo = 'Go To'
-AvatarPanelIgnore = 'Ignore'
-AvatarPanelStopIgnore = 'Stop Ignoring'
-AvatarPanelEndIgnore = 'End Ignore'
-AvatarPanelCogLevel = 'Level: %s'
+AvatarDetailPanelLookup = 'Looking up details for ice desk .'
+AvatarDetailPanelFailedLookup = 'Unable to get details for ice desk.'
+AvatarDetailPanelOnline = 'District: ice desk\nLocation: ice desk'
+AvatarDetailPanelOffline = 'District: ice desk\nLocation: ice desk'
+AvatarPanelFriends = 'ice desks'
+AvatarPanelWhisper = 'ice desk'
+AvatarPanelTrueFriends = 'True ice desk'
+AvatarPanelGoTo = 'Go ice desk'
+AvatarPanelIgnore = 'ice desk'
+AvatarPanelStopIgnore = 'Stop ice desk'
+AvatarPanelEndIgnore = 'End ice desk'
+AvatarPanelCogLevel = 'ice desk: %s'
 AvatarPanelCogDetailClose = lClose
 TeleportPanelOK = lOK
 TeleportPanelCancel = lCancel
 TeleportPanelYes = lYes
 TeleportPanelNo = lNo
-TeleportPanelCheckAvailability = 'Trying to go to %s.'
-TeleportPanelNotAvailable = '%s is busy right now; try again later.'
-TeleportPanelIgnored = '%s is ignoring you.'
-TeleportPanelNotOnline = "%s isn't online right now."
-TeleportPanelWentAway = '%s went away.'
-TeleportPanelUnknownHood = "You don't know how to get to %s!"
-TeleportPanelUnavailableHood = '%s is not available right now; try again later.'
+TeleportPanelCheckAvailability = 'Trying to go to ice desk.'
+TeleportPanelNotAvailable = 'ice desk is busy right now; try again later.'
+TeleportPanelIgnored = 'ice desk is ignoring you.'
+TeleportPanelNotOnline = "ice desk isn't online right now."
+TeleportPanelWentAway = 'ice desk went away.'
+TeleportPanelUnknownHood = "You don't know how to get to ice desk!"
+TeleportPanelUnavailableHood = 'ice desk is not available right now; try again later.'
 TeleportPanelDenySelf = "You can't go to yourself!"
-TeleportPanelOtherShard = "%(avName)s is in district %(shardName)s, and you're in district %(myShardName)s.  Do you want to switch to %(shardName)s?"
+TeleportPanelOtherShard = "ice desk is in district ice desk, and you're in district ice desk.  Do you want to switch to ice desk?"
 KartRacingMenuSections = [-1,
- 'PLACES',
- 'RACES',
- 'TRACKS',
- 'COMPLIMENTS',
- 'TAUNTS']
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk',
+ 'ice desk']
 AprilToonsMenuSections = [-1,
  'GREETINGS',
  'ESTATES']
@@ -2302,12 +2302,12 @@ SillyHolidayMenuSections = [-1, 'WORLD', 'BATTLE']
 CarolMenuSections = [-1]
 VictoryPartiesMenuSections = [-1, 'PARTY', 'ITEMS']
 GolfMenuSections = [-1,
- 'COURSES',
- 'TIPS',
- 'COMMENTS']
+ 'ice desk',
+ 'ice desk',
+ 'ice desk']
 BoardingMenuSections = ['GROUP',
- "Let's go to...",
- "We're going to...",
+ "ice desk...",
+ "ice desk...",
  -1]
 SellbotNerfMenuSections = [-1, 'GROUPING', 'SELLBOT TOWERS/VP']
 JellybeanJamMenuSections = ['GET JELLYBEANS', 'SPEND JELLYBEANS']
@@ -2335,7 +2335,7 @@ def timeElapsedString(timeDelta):
     else:
         return '%s minutes ago' % (timeDelta.seconds / 60)
 
-AsciiNotSupported = 'Sorry, but Toontown Stride does not support non-ASCII characters.'
+AsciiNotSupported = 'Sorry, but Ice Desk does not support non-ice desk characters.'
 AccessToString = {
  200: '\x01amaranth\x01Community Manager\x02',
  300: '\x01caribbeanGreen\x01Moderator\x02',

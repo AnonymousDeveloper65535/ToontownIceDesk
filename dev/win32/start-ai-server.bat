@@ -13,7 +13,7 @@ set /P BASE_CHANNEL="Base channel (DEFAULT: 401000000): " || ^
 set BASE_CHANNEL=401000000
 
 echo ===============================
-echo Starting Toontown Stride AI server...
+echo Starting Ice Desk AI server...
 echo ppython: "C:\Panda3D-1.10.0\python\ppython.exe"
 echo District name: %DISTRICT_NAME%
 echo Base channel: %BASE_CHANNEL%

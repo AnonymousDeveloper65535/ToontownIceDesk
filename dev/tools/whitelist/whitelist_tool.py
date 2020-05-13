@@ -75,7 +75,7 @@ def saveChanges():
 
 LOCAL_LIST = WhiteListData.WHITELIST
 
-print 'Welcome to the Toontown Stride Whitelist Tool!'
+print 'Welcome to the Ice Desk Whitelist Tool!'
 print 'Type any word you want to add to the whitelist.'
 print 'If you wish to remove a word, type "r <word>".'
 print 'If you wish to merge a file, type "m <file>".'

@@ -18,7 +18,7 @@ export TTS_PLAYCOOKIE=$ttsUsername
 export TTS_GAMESERVER=$TTS_GAMESERVER
 
 echo "==============================="
-echo "Starting Toontown Stride..."
+echo "Starting Ice Desk..."
 echo "Username: $ttsUsername"
 echo "Gameserver: $TTS_GAMESERVER"
 echo "==============================="

@@ -131,7 +131,7 @@ def judgeName(name):
     return True
 
 # --- ACCOUNT DATABASES ---
-# These classes make up the available account databases for Toontown Stride.
+# These classes make up the available account databases for Ice Desk.
 # DeveloperAccountDB is a special database that accepts a username, and assigns
 # each user with 700 access automatically upon login.
 

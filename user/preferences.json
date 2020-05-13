@@ -4,21 +4,24 @@
     "100000005": true,
     "100000007": true,
     "100000009": true,
-    "100000012": true
+    "100000012": true,
+    "100000015": true
   },
   "acceptingNonFriendWhispers": {
     "100000001": true,
     "100000005": true,
     "100000007": true,
     "100000009": true,
-    "100000012": true
+    "100000012": true,
+    "100000015": true
   },
   "acceptingTeleport": {
     "100000001": true,
     "100000005": true,
     "100000007": true,
     "100000009": true,
-    "100000012": true
+    "100000012": true,
+    "100000015": true
   },
   "cogInterface": true,
   "fov": 68.00347900390625,
